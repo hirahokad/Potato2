@@ -47,7 +47,7 @@ Gives more in depth description of what is causing the error.
         1. Checking the for more details about your pods using the command above is the key to solving this issue. Checking under events of the containers and seeing what is causing the crashes and acknokledging each step of the container creation is the solution
 
 #
-### Kubectl: Error PersistentVolumeClaim is already mounted
+### Kubectl:  Multi-Attach error for volume "pvc" Volume is already exclusively attached to one node and can't be attached to another
 - These are the causes of this issue:
     1. Multiple pods are trying to claim a PVC that can only be claimed by one.
 
@@ -62,7 +62,7 @@ accessModes:
         
         
 #
-### Question #4
+### Kubectl: "pod has unbound immediate PersistentVolumeClaims"
 - These are the causes of this issue:
     1. This happens
 
