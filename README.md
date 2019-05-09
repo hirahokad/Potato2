@@ -172,7 +172,7 @@ After get your External IP and connect to it. It might take 80 seconds for it to
 kubectl get svc
 ```
 
-#### Finsihed? Or messed up?
+#### Finished? Or messed up?
 When finished or if you want to start over you can just delete the cluster and start from scratch by first running this command:
 ```
 kops delete cluster --name ${KOPS_CLUSTER_NAME} --yes
@@ -182,10 +182,14 @@ This will delete the cluster and you can start from the part where you ran the f
 
 
 
-#### FAQ - Potential or known issues related to the setup or execution of code
+
+
+## FAQ - Potential or known issues related to the setup or execution of code
 
 
 
-#### Diagram of MEAN Stack Kubernetes Cluster
+
+
+## Diagram of MEAN Stack Kubernetes Cluster
 ![Image of Kubernetes Cluster](https://imgur.com/1e8zpgd.png)
 
