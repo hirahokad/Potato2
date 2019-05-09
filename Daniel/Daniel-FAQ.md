@@ -54,6 +54,12 @@ Gives more in depth description of what is causing the error.
     #### Answer
     - This is fixed by doing the following:
         1. In either of the containers you might have to modify it so only one can access the PVC otherwise modifying the PVC to allow for multiple mounts can sufice.
+```
+accessModes:
+  - ReadWriteOnce
+```
+        This has the option to be ReadWriteOnce, ReadOnlyMany, or ReadWriteMany.
+        
         
 #
 ### Question #4
